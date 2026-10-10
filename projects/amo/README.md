@@ -43,7 +43,21 @@ Aggregation, Roll-Up, Ranking, Windowing 분석 기능을 제공하며,
 
 ## 👤 My Contribution
 
-> 작성 예정
+**Role: Backend Developer & Team Leader**
+
+### Data Engineering
+- 기후·재난 데이터 전처리 및 MySQL 적재
+- 대량 데이터 초기 적재를 위한 Bulk Insert SQL 작성
+- 데이터베이스 초기화 및 삭제 스크립트 작성
+
+### Backend API
+- 국가별 피해 규모를 기준으로 상위 10개 결과를 조회하는 **Ranking API 구현**
+- 기온, 해수면 온도 이상(SST), CO₂ 데이터를 대상으로 기간별 값과 이동평균을 계산하는 **Windowing API 구현**
+- 데이터 조회·생성·수정·삭제를 위한 **CRUD API 구현**
+- 로그인 여부를 검사하여 데이터 관리 기능 접근을 제한하는 **인증 처리 구현**
+
+### Team Leader
+- 백엔드 및 데이터 처리 작업을 담당하며 팀 프로젝트 개발 진행 관리
 
 ## 🔧 Problem Solving
 
