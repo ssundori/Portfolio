@@ -121,7 +121,7 @@ PHP REST API
 JavaScript Frontend
         ↓
 Dashboard / Analysis Results
-```text
+```
 
 ## 🔗 Repository
 
