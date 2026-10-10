@@ -122,6 +122,10 @@ JavaScript Frontend
         ↓
 Dashboard / Analysis Results
 ```
+- Python과 pandas를 이용해 원본 기후·재난 데이터를 전처리
+- 전처리된 데이터를 MySQL에 저장
+- PHP REST API를 통해 조회·분석·데이터 관리 기능 제공
+- JavaScript Frontend에서 API를 호출해 결과를 사용자에게 표시
 
 ## 🔗 Repository
 
