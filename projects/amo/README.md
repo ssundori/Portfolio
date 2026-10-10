@@ -101,6 +101,27 @@ Aggregation, Roll-Up, Ranking, Windowing 분석 기능을 제공하며,
 
 이를 통해 Frontend와 Backend가 동일한 입력·응답 기준으로 동작하도록 정리했습니다.
 
+## 🏗 System Architecture
+
+```text
+Climate / Disaster Dataset
+        ↓
+Python / pandas
+Data Preprocessing
+        ↓
+MySQL Database
+        ↓
+PHP REST API
+├── Aggregation
+├── Roll-Up
+├── Ranking
+├── Windowing
+└── CRUD
+        ↓
+JavaScript Frontend
+        ↓
+Dashboard / Analysis Results
+
 ## 🔗 Repository
 
 [Original Team Repository](https://github.com/ssundori/BigDataApplication_Amo)
