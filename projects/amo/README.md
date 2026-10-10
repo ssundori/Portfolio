@@ -129,23 +129,6 @@ Dashboard / Analysis Results
 - PHP REST API를 통해 조회·분석·데이터 관리 기능 제공
 - JavaScript Frontend에서 API를 호출해 결과를 사용자에게 표시
 
-## 💻 Key Code
-
-- [Aggregation API](https://github.com/ssundori/BigDataApplication_Amo/blob/main/team18/api/analysis/aggregation.php)
-  - 기간·대륙·재해 유형별 피해 규모의 합계와 평균 계산
-
-- [Ranking API](https://github.com/ssundori/BigDataApplication_Amo/blob/main/team18/api/analysis/ranking.php)
-  - 필터 값 정규화, 재해 subtype 기준 집계, Top 10 Ranking 조회
-
-- [Windowing API](https://github.com/ssundori/BigDataApplication_Amo/blob/main/team18/api/analysis/windowing.php)
-  - 기온·SST·CO₂ 시계열 조회 및 이동평균 계산
-
-- [Data Read API](https://github.com/ssundori/BigDataApplication_Amo/blob/main/team18/api/data_manage/read.php)
-  - Pagination 기반 데이터 조회 및 전체 레코드 수 반환
-
-- [Data Create API](https://github.com/ssundori/BigDataApplication_Amo/blob/main/team18/api/data_manage/create.php)
-  - 데이터 생성과 사용자 활동 로그 기록을 Transaction으로 처리
-
 ## 🔗 Repository
 
 [Original Team Repository](https://github.com/ssundori/BigDataApplication_Amo)
